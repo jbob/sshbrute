@@ -1,7 +1,7 @@
 INSTALL:
 
   Requirements:
-    This program depends on "libssh" Version > 0.3
+    This program depends on "libssh" Version >= 0.3
     On Ubuntu you need the two packages "libssh-3" and "libssh-dev" installed in
     order to successfully compile and run the program.
 

@@ -9,4 +9,4 @@ ATTENTION: Using to many threads (e.g. >8 often cause sshbrute to fail because
 of the "MaxStartups" parameter of sshd)
 
 Check for new versions at:
-    http://someurl.org/
+    http://github.com/jbob/sshbrute
