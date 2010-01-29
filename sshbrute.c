@@ -108,9 +108,8 @@ int main(int argc, char **argv)
         threads = atoi(optarg);
         break;
       case '?':
-        fprintf(stderr, "Usage %s -h host [-p port] -u username -f passwordfile"
-        " [-t timeout] [-n threads]", argv[0]);
-        return 1;
+        err_exit(argv[0]);
+        break;
       default:
         abort();
       }
