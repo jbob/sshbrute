@@ -1,0 +1,21 @@
+INSTALL:
+
+  Requirements:
+    This program depends on "libssh" Version > 0.3
+    On Ubuntu you need the two packages "libssh-3" and "libssh-dev" installed in
+    order to successfully compile and run the program.
+
+    Furthermore you need of course "gcc" and "make" to compile the programm.
+
+  Compilation:
+    
+    Compilation is easy. As normal user just "cd" to the folder, where the
+    "Makefile" is and then type "make". Now you can execute the programm with
+    "./sshbrute".
+
+  Installation:
+    
+    You may want to install the programm to some folder which is in $PATH. For
+    that you need to be root (or use sudo). If you are root type "make install"
+    if you are using sudo type "sudo make install".
+
