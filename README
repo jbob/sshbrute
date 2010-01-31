@@ -5,7 +5,7 @@ sshbrute is a multi-threaded ssh password bruteforcer.
   * Uses variable number of threads
   * Flexible
 
-ATTENTION: Using to many threads (e.g. >=8) often cause sshbrute to fail due to
+ATTENTION: Using to many threads (e.g. >=8) often causes sshbrute to fail due to
 the "MaxStartups" parameter of sshd.
 
 Check for new versions at:
