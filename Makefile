@@ -10,7 +10,7 @@ all: $(EXECUTABLE)
 $(EXECUTABLE): $(EXECUTABLE).o
 	$(CC) $(LIBS) $(EXECUTABLE).o -o $(EXECUTABLE)
 
-sshbrute.o: $(EXECUTABLE).c
+$(EXECUTABLE).o: $(EXECUTABLE).c
 	$(CC) $(CFLAGS) $(EXECUTABLE).c
 
 install: all
